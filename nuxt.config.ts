@@ -27,4 +27,10 @@ export default defineNuxtConfig({
     server: true,
     client: true,
   },
+
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
+  }
 })

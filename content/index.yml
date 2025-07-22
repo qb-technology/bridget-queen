@@ -1,11 +1,11 @@
 seo:
-  title: 'Bridget Osei Agyemang - Researcher / Food Scientist and Consultant'
-  description: "Welcome to my portfolio! I'm Andrews, a hard working young man based in Palermo, Italy. I specialize in translating visions into user-centered digital products that are both beautiful and functional."
+  title: 'Bridget Osei Agyemang - Food Scientist/Researcher and Consultant'
+  description: "Welcome to my portfolio! I'm Bridget, a food scientist and researcher based in Ontario, Canada. I find joy in nature, working with children, and expressing creativity through design and photography."
 title: "I'm Bridget Osei Agyemang"
 description: 'My work focuses on developing sustainable solutions to ensure nutritious, and accessible food for all. Beyond the lab, I find joy in nature, working with children, and expressing creativity through design and photography.'
 hero:
   links:
-    - 
+    -
 experience:
   title: Research Experience
   items:
@@ -14,25 +14,25 @@ experience:
       company:
         name: Scientific Consulting Company
         url: 'https://www.scc-gmbh.de/'
-        location: "Bad-Kreuznach, Germany"
+        location: 'Bad-Kreuznach, Germany'
       actions:
-        - "Contributed to the development and implementation of the project continuous improvement plan, and the achievement of project objectives."
-        - "Performed risk assessment and execute strategies to meet project requirements"
-        - "Study Monitoring based on EU Standards"
-        - "HACCPs and ISO 22000 implementation and documentation"
-        - "Ensured that the product meets the local and EU legislation"
-    - position: "Research and Development - Eco-friendly edible fruit for banana"
-      date: "Mar 2021 - Sep 2021"
+        - 'Contributed to the development and implementation of the project continuous improvement plan, and the achievement of project objectives.'
+        - 'Performed risk assessment and execute strategies to meet project requirements'
+        - 'Study Monitoring based on EU Standards'
+        - 'HACCPs and ISO 22000 implementation and documentation'
+        - 'Ensured that the product meets the local and EU legislation'
+    - position: 'Research and Development - Eco-friendly edible fruit for banana'
+      date: 'Mar 2021 - Sep 2021'
       company:
-        name: "French Center for International Research Development (CIRAD)"
-        url: "https://www.cirad.fr/en"
-        location: "Montpellier, France"
+        name: 'French Center for International Research Development (CIRAD)'
+        url: 'https://www.cirad.fr/en'
+        location: 'Montpellier, France'
       actions:
-        - "Pioneered the selection of the right emulsifiers and plasticizers that meet European standards"
-        - "Controlled the ripening of bananas during the shipping stage of the supply chain"
-        - "Inhibited the fungal growth along the supply chain"
-        - "Promoted the development of a food safety attitude and culture within the company."
-        - "Monitored plant operations and equipment for compliance with behavioral standards related to food/feed safety and quality."
+        - 'Pioneered the selection of the right emulsifiers and plasticizers that meet European standards'
+        - 'Controlled the ripening of bananas during the shipping stage of the supply chain'
+        - 'Inhibited the fungal growth along the supply chain'
+        - 'Promoted the development of a food safety attitude and culture within the company.'
+        - 'Monitored plant operations and equipment for compliance with behavioral standards related to food/feed safety and quality.'
 education:
   title: 'Education'
   items:
@@ -44,7 +44,7 @@ education:
         location: 'Ontario, Canada'
       actions:
         - Pseudo-cereals, LCA, LCC, etc
-      advisor: "Dr Iris Joye"
+      advisor: 'Dr Iris Joye'
     - date: 'Sep 2019 - June 2021'
       degree: 'MSc Food Chemistry and Microbiology'
       university:
@@ -52,9 +52,9 @@ education:
         url: 'https://www.ube.fr/en/university/'
         location: 'Dijon, France'
       actions:
-        - "Specialization: Food Chemistry, Food Safety and Quality Assurance, Plant extraction methods, Project Management, Product development, Food Analysis"
-        - "Dissertation: Properties of beeswax antifungal coatings obtained by high-pressure homogenisation and their application for preserving bananas during storage"
-      advisor: "Dr Pierre Brat"
+        - 'Specialization: Food Chemistry, Food Safety and Quality Assurance, Plant extraction methods, Project Management, Product development, Food Analysis'
+        - 'Dissertation: Properties of beeswax antifungal coatings obtained by high-pressure homogenisation and their application for preserving bananas during storage'
+      advisor: 'Dr Pierre Brat'
     - date: 'Feb 2020 - Jul 2020'
       degree: 'MSc Food Biotechnology (Exchange Programme)'
       university:
@@ -62,8 +62,8 @@ education:
         url: 'https://www.ysu.am/en'
         location: 'Yerevan, Armenia'
       actions:
-        - "Thesis: Case Study; Comparison of Old Wine World to the New Wine World- The Social, Regulatory, Sensory Evaluation of These Wines)"
-        - "Specialization: Raman Spectrometer, Microbial metabolism, Biotechnology"
+        - 'Thesis: Case Study; Comparison of Old Wine World to the New Wine World- The Social, Regulatory, Sensory Evaluation of These Wines)'
+        - 'Specialization: Raman Spectrometer, Microbial metabolism, Biotechnology'
       advisor: 'Dr. Nelli Hovhannisyan'
     - date: '2015 - 2019'
       degree: 'BSc Food Science and Technology'
@@ -72,8 +72,8 @@ education:
         url: 'https://www.knust.edu.gh/'
         location: 'Kumasi, Ghana'
       actions:
-        - "Minor: Food Policy, Food Nutrition, Food Chemistry"
-        - "Honors (First Class)"
+        - 'Minor: Food Policy, Food Nutrition, Food Chemistry'
+        - 'Honors (First Class)'
 testimonials:
   - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
     author:
