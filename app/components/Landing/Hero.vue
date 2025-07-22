@@ -9,14 +9,21 @@
   defineProps<{
     page: IndexCollectionItem;
   }>();
+
+  const orientation = computed(() => {
+    if (import.meta.server) return 'horizontal';
+    return breakpoints.greaterOrEqual('lg').value ? 'horizontal' : 'vertical';
+  });
+  const reverse = computed(() => {
+    if (import.meta.server) return false;
+    return !breakpoints.greaterOrEqual('lg').value;
+  });
 </script>
 
 <template>
   <PageHero
-    :orientation="
-      breakpoints.greaterOrEqual('lg').value ? 'horizontal' : 'vertical'
-    "
-    :reverse="!breakpoints.greaterOrEqual('lg').value"
+    :orientation="orientation"
+    :reverse="reverse"
     :ui="{
       headline: 'flex items-center justify-center',
       title:

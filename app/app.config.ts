@@ -1,12 +1,14 @@
 export default defineAppConfig({
     ui: {
-        primary: 'fuchsia',
-        gray: 'neutral',
+        colors: {
+            primary: 'fuchsia',
+            gray: 'neutral',
+        }
     },
     global: {
         picture: {
-            dark: 'https://r2.qbtech.dev/boa_images/BOA_1.jpg',
-            light:
+            light: 'https://r2.qbtech.dev/boa_images/BOA_1.jpg',
+            dark:
                 'https://r2.qbtech.dev/boa_images/BOA.png',
             alt: 'Bridget Osei Agyemang picture',
         },
