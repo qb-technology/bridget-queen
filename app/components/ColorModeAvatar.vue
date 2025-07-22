@@ -30,18 +30,18 @@
 </script>
 
 <template>
-  <ClientOnly v-if="!colorMode?.forced">
-    <UAvatar
-      v-bind="{
-        ...props,
-        src: isDark ? light : dark,
-      }"
-    />
+  <!-- <ClientOnly v-if="!colorMode?.forced"> -->
+  <UAvatar
+    v-bind="{
+      ...props,
+      src: isDark ? light : dark,
+    }"
+  />
 
-    <template #fallback>
+  <!-- <template #fallback>
       <div class="size-8" />
     </template>
-  </ClientOnly>
+  </ClientOnly> -->
 </template>
 
 <style scoped></style>

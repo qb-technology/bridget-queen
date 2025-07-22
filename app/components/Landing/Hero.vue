@@ -11,11 +11,11 @@
   }>();
 
   const orientation = computed(() => {
-    if (import.meta.server) return 'horizontal';
+    // if (import.meta.server) return 'horizontal';
     return breakpoints.greaterOrEqual('lg').value ? 'horizontal' : 'vertical';
   });
   const reverse = computed(() => {
-    if (import.meta.server) return false;
+    // if (import.meta.server) return true;
     return !breakpoints.greaterOrEqual('lg').value;
   });
 </script>
@@ -27,9 +27,10 @@
     :ui="{
       headline: 'flex items-center justify-center',
       title:
-        'text-shadow-md max-w-lg mx-auto text-4xl sm:text-5xl md:text-5xl lg:text-5xl',
+        'text-shadow-md text-center lg:text-start max-w-lg mx-auto text-4xl sm:text-5xl md:text-5xl lg:text-5xl',
       links: 'mt-4 flex-col justify-start items-center lg:items-start',
-      description: 'mt-2 text-xs sm:text-sm lg:text-base',
+      description:
+        'mt-2 text-xs sm:text-sm lg:text-base text-center lg:text-start',
       container: '!py-10 gap-4 sm:gap-y-8 lg:gap-16',
     }"
   >
