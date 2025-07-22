@@ -10,7 +10,7 @@
   <PageSection
     :title="page.education.title"
     :ui="{
-      container: '!py-10 sm:!px-0 gap-4 sm:gap-4',
+      container: '!py-10 !px-0 gap-4 sm:gap-4',
       title: 'text-left text-xl sm:text-2xl lg:text-3xl font-medium mb-5',
       description: 'mt-2 text-sm sm:text-base',
     }"
