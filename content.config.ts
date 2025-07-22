@@ -44,7 +44,6 @@ export default defineContentConfig({
                     links: z.array(createButtonSchema()),
                     images: z.array(createImageSchema())
                 }),
-                about: createBaseSchema(),
                 experience: createBaseSchema().extend({
                     items: z.array(z.object({
                         date: z.date(),
@@ -52,9 +51,9 @@ export default defineContentConfig({
                         company: z.object({
                             name: z.string(),
                             url: z.string(),
-                            logo: z.string().editor({ input: 'icon' }),
-                            color: z.string()
-                        })
+                            location: z.string(),
+                        }),
+                        actions: z.array(z.string())
                     }))
                 }),
                 education: createBaseSchema().extend({
@@ -64,9 +63,10 @@ export default defineContentConfig({
                         university: z.object({
                             name: z.string(),
                             url: z.string(),
-                            logo: z.string().editor({ input: 'icon' }),
+                            location: z.string(),
                         }),
-                        actions: z.array(z.string())
+                        actions: z.array(z.string()),
+                        advisor: z.string()
                     }))
                 }),
                 certifications: createBaseSchema().extend({
@@ -82,19 +82,6 @@ export default defineContentConfig({
                     }))
                 }),
                 testimonials: z.array(createTestimonialSchema()),
-                blog: createBaseSchema(),
-                faq: createBaseSchema().extend({
-                    categories: z.array(
-                        z.object({
-                            title: z.string().nonempty(),
-                            questions: z.array(
-                                z.object({
-                                    label: z.string().nonempty(),
-                                    content: z.string().nonempty()
-                                })
-                            )
-                        }))
-                })
             })
         }),
         projects: defineCollection({

@@ -54,7 +54,7 @@
       leadingIcon: 'size-10 shrink-0 text-(--ui-primary)',
       title:
         'text-3xl sm:text-4xl lg:text-5xl text-pretty tracking-tight font-bold text-(--ui-text-highlighted)',
-      description: 'text-base sm:text-lg text-(--ui-text-muted)',
+      description: 'text-base sm:text-lg text-muted',
       links: 'mt-8 flex flex-wrap gap-x-6 gap-y-3',
       features: 'mt-8 grid',
     },

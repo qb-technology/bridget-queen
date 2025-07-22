@@ -10,13 +10,13 @@
   <PageSection
     :title="page.experience.title"
     :ui="{
-      container: '!p-0 gap-4 sm:gap-4',
-      title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
-      description: 'mt-2',
+      container: '!py-10 sm:!px-0 gap-4 sm:gap-4',
+      title: 'text-left text-xl sm:text-2xl lg:text-3xl font-medium mb-5',
+      description: 'mt-2 text-sm sm:text-base',
     }"
   >
     <template #description>
-      <div class="flex flex-col gap-2">
+      <div class="flex flex-col gap-5">
         <Motion
           v-for="(experience, index) in page.experience.items"
           :key="index"
@@ -24,28 +24,48 @@
           :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
           :transition="{ delay: 0.4 + 0.2 * index }"
           :in-view-options="{ once: true }"
-          class="text-muted flex items-center text-nowrap gap-2"
+          class="space-y-2 text-toned text-nowrap"
         >
-          <p class="text-sm">
-            {{ experience.date }}
-          </p>
-          <USeparator />
-          <ULink
-            class="flex items-center gap-1"
-            :to="experience.company.url"
-            target="_blank"
+          <div
+            class="flex flex-wrap md:flex-nowrap justify-end sm:justify-between md:justify-start items-center gap-2"
           >
-            <span class="text-sm">
-              {{ experience.position }}
-            </span>
-            <div
-              class="inline-flex items-center gap-1"
-              :style="{ color: experience.company.color }"
+            <ULink
+              :to="experience.company.url"
+              target="_blank"
+              class="text-inherit text-start flex-grow truncate md:overflow-visible w-full xs:w-fit"
             >
-              <span class="font-medium">{{ experience.company.name }}</span>
-              <UIcon :name="experience.company.logo" />
+              {{ experience.company.name }}
+            </ULink>
+
+            <USeparator class="hidden md:inline-block" />
+
+            <p class="">
+              {{ experience.company.location }}
+            </p>
+          </div>
+          <div
+            class="flex flex-wrap md:flex-nowrap justify-end sm:justify-between md:justify-start items-center gap-2"
+          >
+            <p
+              class="text-inherit text-start flex-grow truncate md:overflow-visible w-full xs:w-fit"
+            >
+              {{ experience.position }}
+            </p>
+
+            <USeparator class="hidden md:inline-block" />
+
+            <p>{{ experience.date }}</p>
+          </div>
+          <div class="grid text-start gap-2 text-muted pt-2">
+            <div
+              v-for="(act, i) of experience.actions"
+              :key="i"
+              class="flex items-center gap-1.5 mx-2"
+            >
+              <UIcon class="size-4" name="i-lucide-chevron-right" />
+              <p class="text-xs sm:text-sm text-wrap">{{ act }}</p>
             </div>
-          </ULink>
+          </div>
         </Motion>
       </div>
     </template>
