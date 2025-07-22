@@ -1,0 +1,2 @@
+import{p as c,B as d,d as t,e as n,C as r,E as p}from"./D0tSpiXx.js";const u=["id"],f=["href"],k={__name:"ProseH1",props:{id:{type:String,required:!1}},setup(a){const o=a,{headings:e}=c().public.mdc,i=d(()=>o.id&&(typeof e?.anchorLinks=="boolean"&&e?.anchorLinks===!0||typeof e?.anchorLinks=="object"&&e?.anchorLinks?.h1));return(s,h)=>(n(),t("h1",{id:o.id},[p(i)?(n(),t("a",{key:0,href:`#${o.id}`},[r(s.$slots,"default")],8,f)):r(s.$slots,"default",{key:1})],8,u))}};export{k as default};
+//# sourceMappingURL=CKvLp9Sk.js.map

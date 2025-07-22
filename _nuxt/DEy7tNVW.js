@@ -1,2 +1,0 @@
-import{_ as n}from"./Dx0a_1cQ.js";import{_ as e,z as t,e as a}from"./C6t7hWMS.js";const r={};function c(s,_){const o=n;return a(),t(o,{title:"Under Construction",description:"This page is still under construction. Come back in a few days",links:[{label:"Go to Homepage",variant:"ghost",color:"neutral",to:"/"},{label:"Send a message",variant:"solid",color:"neutral",to:"mailto:andrews@cybandy.com"}]})}const m=Object.assign(e(r,[["render",c]]),{__name:"UnderConstruction"});export{m as _};
-//# sourceMappingURL=DEy7tNVW.js.map
